@@ -1,6 +1,8 @@
 # tweet_bot
-
-Make sure you change the credentials.py to your access tokens from twitter. (twitter development)
+ A Twitter bot made with python, tweepy api and json!
+ 
+Please make sure you have those packages installed! (pip install tweepy) (pip install python 3.8) 
+Make sure you change the credentials.py to your access tokens from twitter (twitter development)
 
 Tweet bot's features:
   Auto tweet set timer and let it go (you may get banned for constantly spamming so dont change the timer unless you accept that)
