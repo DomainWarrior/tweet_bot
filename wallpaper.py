@@ -26,3 +26,4 @@ class Wallpaper:
         image.save('created_image.png')
 
 
+#TODO: get it to work
