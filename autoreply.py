@@ -7,7 +7,7 @@ import time
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
-
+#check mentions 
 def check_mentions(api, keywords, since_id):
     logger.info("Retrieving mentions")
     new_since_id = since_id
@@ -21,7 +21,7 @@ def check_mentions(api, keywords, since_id):
 
             if not tweet.user.following:
                 tweet.user.follow()
-
+#if mentioned say please contact us in dm
             api.update_status(
                 status="Please reach us via DM",
                 in_reply_to_status_id=tweet.id,
