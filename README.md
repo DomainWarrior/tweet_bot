@@ -1,4 +1,27 @@
-# tweet_bot
+<h1 align="center">Welcome to Tweeter.D.Bot 👋</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
+  <a href="github.com/DomainWarrior/twitter_bot/README.md" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="github.com/DomainWarrior/tweet_bot/LICENSE.md" target="_blank">
+    <img alt="License: mit" src="https://img.shields.io/badge/License-mit-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/dest99977165" target="_blank">
+    <img alt="Twitter: dest99977165" src="https://img.shields.io/twitter/follow/dest99977165.svg?style=social" />
+  </a>
+</p>
+
+> A functional twitter bot with many functions
+
+### 🏠 [Homepage](coming soon!)
+
+## Usage
+In order to use please grab the needed tokens from twitter development page and put them under credientails.
+ Make sure you have Tweepy API installed
+```sh
+ pip install tweepy
+```
  A Twitter bot made with python, tweepy api and json!
  
 Please make sure you have those packages installed! (pip install tweepy) (pip install python 3.8) 
@@ -18,3 +41,23 @@ Tweet bot's features:
   Upload a tweet with an image and text overlaying the image
   
   Please do not resell this code or claim it as your own. Thank you so very much. 
+## Author
+
+👤 **Domain Warrior**
+
+* Website: dezzindustries.com
+* Twitter: [@dest99977165](https://twitter.com/dest99977165)
+* Github: [@Domain Warrior](https://github.com/Domain Warrior)
+* LinkedIn: [@https:\/\/www.linkedin.com\/in\/destiny-messer-54a356115\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/destiny-messer-54a356115\/)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2021 [Domain Warrior](https://github.com/Domain Warrior).<br />
+This project is [mit](github.com/DomainWarrior/tweet_bot/LICENSE.md) licensed.
+
+***
+
