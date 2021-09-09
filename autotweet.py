@@ -10,4 +10,5 @@ auth.set_access_token("accesstoken",
 api = tweepy.API(auth, wait_on_rate_limit=True,
                  wait_on_rate_limit_notify=True)
 
+#this tweets manually just change the string to whatever you want
 api.update_status("Yes I work as a matter of fact!")
