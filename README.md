@@ -17,15 +17,14 @@
 ### 🏠 [Homepage](coming soon!)
 
 ## Usage
-In order to use please grab the needed tokens from twitter development page and put them under credientails.
+<h1 align="center">  A Twitter bot made with python, tweepy api and json!</h1>
+Please make sure you have those packages installed!
  Make sure you have Tweepy API installed
 ```sh
- pip install tweepy
+ pip install tweepy 
+ pip install python 3.8
 ```
- A Twitter bot made with python, tweepy api and json!
- 
-Please make sure you have those packages installed! (pip install tweepy) (pip install python 3.8) 
-Make sure you change the credentials.py to your access tokens from twitter (twitter development)
+In order to use please grab the needed tokens from twitter development page and put them under credientals.
 
 Tweet bot's features:
   Auto tweet set timer and let it go (you may get banned for constantly spamming so dont change the timer unless you accept that)
