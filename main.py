@@ -6,6 +6,9 @@
 
 import tweepy
 
+
+#how to make sure your credientals work uncomment the following lines by removing #
+
 # Authenticate to Twitter
 #auth = tweepy.OAuthHandler("CONSUMER_KEY", "CONSUMER_SECRET")
 #auth.set_access_token("ACCESS_TOKEN", "ACCESS_TOKEN_SECRET")
@@ -18,10 +21,12 @@ import tweepy
 #except:
   #  print("Error during authentication")
 
+  #check someones posts
 #timeline = api.home_timeline()
 #for tweet in timeline:
  #   print(f"{tweet.user.name} said {tweet.text}")
 
+  #update your status one time
 #    api.update_status("Test tweet from Tweepy Python")
 
 #change your profile description with this code:
