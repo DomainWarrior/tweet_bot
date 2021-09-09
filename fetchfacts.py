@@ -6,7 +6,7 @@ from django.contrib.sites import requests
 from wallpaper import Wallpaper
 from main import api
 
-
+#still under development this file is useless right now
 def get_quote():
     URL = "https://api.quotable.io/random"
     try:
