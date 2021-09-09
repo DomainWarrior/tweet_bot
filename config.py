@@ -4,7 +4,7 @@ import os
 
 logger = logging.getLogger()
 
-
+#create the api to check your credientials
 def create_api():
     consumer_key = os.getenv("CONSUMER_KEY")
     consumer_secret = os.getenv("CONSUMER_SECRET")
