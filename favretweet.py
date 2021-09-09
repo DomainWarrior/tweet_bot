@@ -7,7 +7,7 @@ import json
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
-
+#favorite and retweet when mentioned
 class FavRetweetListener(tweepy.StreamListener):
     def __init__(self, api):
         self.api = api
