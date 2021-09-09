@@ -56,7 +56,7 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-Copyright © 2021 [Domain Warrior](https://github.com/Domain Warrior).<br />
+Copyright © 2021 [Domain Warrior](https://github.com/DomainWarrior).<br />
 This project is [mit](github.com/DomainWarrior/tweet_bot/LICENSE.md) licensed.
 
 ***
