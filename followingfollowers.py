@@ -7,7 +7,7 @@ import time
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
-
+#how to follow people who follow you
 def follow_followers(api):
     logger.info("Retrieving and following followers")
     for follower in tweepy.Cursor(api.followers).items():
