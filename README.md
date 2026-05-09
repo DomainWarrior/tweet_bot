@@ -1,64 +1,62 @@
-<h1 align="center">Welcome to Tweeter.D.Bot 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
-  <a href="github.com/DomainWarrior/twitter_bot/README.md" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="github.com/DomainWarrior/tweet_bot/LICENSE.md" target="_blank">
-    <img alt="License: mit" src="https://img.shields.io/badge/License-mit-yellow.svg" />
-  </a>
-  <a href="https://twitter.com/dest99977165" target="_blank">
-    <img alt="Twitter: dest99977165" src="https://img.shields.io/twitter/follow/dest99977165.svg?style=social" />
-  </a>
-</p>
+# tweet_bot
 
-> A functional twitter bot with many functions
+> Python Twitter automation bot — auto-tweet, auto-follow, auto-retweet, and more.
 
-### 🏠 [Homepage](coming soon!)
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python)
+![Tweepy](https://img.shields.io/badge/Tweepy-API-1DA1F2?style=flat-square&logo=twitter)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-## Usage
-<h1 align="center">  A Twitter bot made with python, tweepy api and json!</h1>
-Please make sure you have those packages installed!
- Make sure you have Tweepy API installed
- 
-```sh
- pip install tweepy 
- pip install python 3.8
+> **Note:** Built against Twitter API v1.1. Twitter deprecated free v1.1 access in 2023 — a Twitter developer account with Elevated or Basic access is now required.
+
+---
+
+## Features
+
+- Auto-tweet on a timer
+- Auto-follow back followers
+- Tweet from a text file (skips duplicates)
+- Auto favorite & retweet by hashtag
+- Auto-reply when mentioned
+
+---
+
+## Setup
+
+### 1. Get API credentials
+
+Create an app at [developer.twitter.com](https://developer.twitter.com) and copy your keys.
+
+### 2. Configure environment
+
+```bash
+cp .env.example .env
+# Fill in your Twitter keys in .env
 ```
-In order to use please grab the needed tokens from twitter development page and put them under credientals.py
 
-Tweet bot's features:
-* Auto tweet set timer and let it go (you may get banned for constantly spamming so dont change the timer unless you accept that)
-* Auto Follow Followers (follows all users that follows this account)
-* Auto tweets from a text file and checks for duplicate tweet and skips if it is a duplicate (it goes to the next available string)
-* Auto favorite and retweet (likes, favorites and retweets customizable hashtags)
-* Auto reply (if mentioned the bot auto replies to dm for help or support or with a tweet)
- 
-  
-Features to come: 
-* Update your profile description with the bot
-* Update your status one time with the bot
-* Update your profile image with the bot
-* Upload a tweet with an image and text overlaying the image
+### 3. Install & run
 
-> Please do not resell this code or claim it as your own. Thank you so very much. 
-## Author
+```bash
+pip install tweepy python-dotenv
+python main.py
+```
 
-👤 **Domain Warrior**
+---
 
-* Website: https://www.dezzindustries.com
-* Twitter: [@dest99977165](https://twitter.com/dest99977165)
-* Github: [@Domain Warrior](https://github.com/Domain Warrior)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/destiny-messer-54a356115\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/destiny-messer-54a356115\/)
+## Project structure
 
-## Show your support
+| File | Purpose |
+|------|---------|
+| `credentials.py` | Loads API keys from env vars |
+| `config.py` | Creates authenticated Tweepy API instance |
+| `main.py` | Entry point |
+| `autotweet.py` | Scheduled tweeting |
+| `autoreply.py` | Mention auto-reply |
+| `favretweet.py` | Auto like & retweet by hashtag |
+| `followingfollowers.py` | Auto follow-back |
+| `.env.example` | Credential template |
 
-Give a ⭐️ if this project helped you!
+---
 
-## 📝 License
+## License
 
-Copyright © 2021 [Domain Warrior](https://github.com/DomainWarrior).<br />
-This project is [mit](github.com/DomainWarrior/tweet_bot/LICENSE.md) licensed.
-
-***
-
+MIT © [DomainWarrior](https://github.com/DomainWarrior)
